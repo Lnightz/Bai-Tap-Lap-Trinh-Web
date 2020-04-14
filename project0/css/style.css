@@ -1,0 +1,20 @@
+.html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.img {
+    max-width: 100%;
+}
+
+/*header*/
+.navbar-inverse{
+    padding: 5px;
+    text-align: center;
+    background-color: cornflowerblue;
+}
