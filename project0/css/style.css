@@ -1,5 +1,4 @@
 .html, body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     margin:0;
     padding: 0;
@@ -16,5 +15,7 @@
 .navbar-inverse{
     padding: 5px;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: darkolivegreen;
+    /* background-color: cornflowerblue; */
+    background-image: none;
 }
