@@ -19,3 +19,7 @@
     /* background-color: cornflowerblue; */
     background-image: none;
 }
+
+.navbar-light {
+    background-color: darkolivegreen;
+}
