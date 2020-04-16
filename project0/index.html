@@ -12,7 +12,16 @@
         <link href="css/nav.css" rel="stylesheet">
 
         <!-- Font Awesome -->
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/16b5112f28.js" crossorigin="anonymous"></script>
+
+
+        <!-- Slick Slider -->
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
     </head>
     <body>
         <header>
@@ -58,7 +67,7 @@
                         </li> -->
                       </ul>
                       <ul class="navbar-nav ml-auto">
-                          <li class="nav-item">
+                          <li class="nav-item" style="border:75px;background-color:green;padding:5px;">
                               <a href="#" class="nav-link">
                                   Đăng nhập
                               </a>
@@ -69,7 +78,31 @@
             </nav>
         </header>
 
-
+        <main>
+          <div class="container-fluid">
+            <div class="site-slider">
+              <div class="slider-one">
+                <div>
+                  <img src="img/promo1.jpg" alt="Promo1" class="img-fluid" width="100%" >
+                </div>
+                <div>
+                  <img src="img/promo2.png" alt="Promo2" class="img-fluid" width="100%" >
+                </div>
+                <div>
+                  <img src="img/promo3.jpg" alt="Promo3" class="img-fluid" width="100%" >
+                </div>
+              </div>
+              <div class="slider-btn">
+                <span class="prev position-top">
+                  <i class="fas fa-chevron-left"></i>
+                </span>
+                <span class="next position-top right-0">
+                  <i class="fas fa-chevron-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </main>
 
         <!-- Javascript -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
@@ -78,5 +111,7 @@
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
