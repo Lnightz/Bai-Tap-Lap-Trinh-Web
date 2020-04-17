@@ -1,5 +1,6 @@
 .html, body{
     font-size: 14px;
+    background-color: black;
 }
 
 .header .img {
@@ -55,4 +56,77 @@
     margin: 0px 6px;
     bottom: 0px;
     right: 50%;
+}
+
+
+.separate-line h3{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 4px solid green; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    color: white;
+}
+
+.separate-line h3 span{
+    background:black; 
+    padding:0 10px; 
+}
+
+.separator-infor p {
+    text-align: center;
+    font-size: 14px;
+    padding: 7px 0 ;
+    color: white;
+    font-family: sans-serif !important;
+}
+
+.lesson img{
+    padding: 5px 0px 20px 0px;
+}
+.lesson img:hover{
+    opacity: 0.6;
+}
+
+.stadium img {
+    padding: 5px 0px 20px 0px;
+}
+
+.stadium:hover{
+    opacity: 0.5
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.hot-class-detail{
+    color: white;
+    font-family: sans-serif !important;
+}
+.hot-class-detail h1{
+    font-size: 20px;
+}
+.hot-class-detail h2{
+    font-size: 18px;
+}
+.hot-class-detail h3{
+    font-size: 16px;
+}
+
+.hot-class-img-left {
+    width: 70%;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 2rem ;
+}
+
+.btn-outline-light{
+    background-color: green;
+}
+
+.navbar-nav.ml-auto.nav-link a:hover{
+    background-color: white;
 }
