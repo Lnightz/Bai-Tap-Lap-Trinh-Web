@@ -1,6 +1,6 @@
 /** First Slider */
-$(".slider-one")
-    .not(".slick-intialized")
+$('.slider-one')
+    .not('.slick-intialized')
     .slick({
         autoplay:true,
         autoplaySpeed: 3000,
