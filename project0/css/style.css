@@ -67,6 +67,8 @@
 }
 
 /* Slick dots */
+
+
 .separate-line h3{
     width: 100%; 
     text-align: center; 
@@ -110,26 +112,6 @@
     height: auto;
 }
 
-.hot-class-detail{
-    color: white;
-    font-family: sans-serif !important;
-}
-.hot-class-detail h1{
-    font-size: 20px;
-}
-.hot-class-detail h2{
-    font-size: 18px;
-}
-.hot-class-detail h3{
-    font-size: 16px;
-}
-
-.hot-class-img-left {
-    width: 70%;
-    float: left;
-    padding-right: 10px;
-    padding-bottom: 2rem ;
-}
 
 .btn-outline-light{
     background-color: green;
@@ -138,4 +120,74 @@
 
 .navbar-nav.ml-auto.nav-link a:hover{
     background-color: white;
+}
+
+.Tourament img{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.horizon-footer{
+    border-top: 2px solid green ;
+    width: 95%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer{
+    background-color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color:#d2d2d2;
+    min-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer .row{
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer h2{
+    text-transform: uppercase;
+    line-height: 1.5em;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+footer ul{
+    list-style-type: none;
+    display: block;
+    padding-left: 0px;
+}
+
+footer .Social {
+    text-align: left;
+}
+footer .Social li{
+    margin-right: 15px;
+    display: inline-block;
+}
+
+footer .Infor li {
+    margin-bottom: 10px;
+}
+
+footer .Infor span {
+    display: inline-block;
+    width: 18px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.fb_iframe_widget:not(.fb-customerchat), .fb_iframe_widget:not(.fb-customerchat) span, .fb_iframe_widget:not(.fb-customerchat) span iframe[style] {
+    min-width: 100% !important;
+    width: 100% !important;
 }
